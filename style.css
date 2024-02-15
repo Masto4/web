@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100dvh;
+    width: 100dvw;
+}
+
+header{
+    height: 12vh;
+    background-color: coral;
+    color:aliceblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    padding-inline: 7vw;
+    justify-content: space-between;
+    width: 100dvw;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h1{
+    font-size: 40px;
+}
